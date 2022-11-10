@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background: #222;
+    height: 100vh;
+}
+
+.main
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+}
+
+.on
+{
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.main img
+{
+    width: 200px;
+}
+
+.footer
+{
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.footer img
+{
+    width: 100px;
+    margin: 0 100px 10px 0;
+}
