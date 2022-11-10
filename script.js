@@ -6,7 +6,9 @@ const bulb = document.querySelector("#bulb");
 const audio = document.querySelector("#audio");
 
 lightSwitch.addEventListener("click", () => {
+    const audio = new Audio('./assets/click.mp3');
     audio.play();
+    
     state = !state;
 
     if (state) {
